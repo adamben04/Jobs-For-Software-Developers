@@ -1,0 +1,111 @@
+[
+    {
+      "title": "Full Stack Developer",
+      "company": "Acme Inc.",
+      "location": "San Francisco, CA",
+      "url": "https://www.acmeinc.com/careers/full-stack-developer"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Tech Corp.",
+      "location": "Seattle, WA",
+      "url": "https://www.techcorp.com/careers/software-engineer"
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Web Co.",
+      "location": "New York, NY",
+      "url": "https://www.webco.com/careers/front-end-developer"
+    },
+    {
+      "title": "Mobile Developer",
+      "company": "Mobile Co.",
+      "location": "Austin, TX",
+      "url": "https://www.mobileco.com/careers/mobile-developer"
+    },
+    {
+      "title": "Back End Engineer",
+      "company": "Data Inc.",
+      "location": "Chicago, IL",
+      "url": "https://www.datainc.com/careers/back-end-engineer"
+    },
+    {
+      "title": "UI Designer",
+      "company": "Design Co.",
+      "location": "Los Angeles, CA",
+      "url": "https://www.designco.com/careers/ui-designer"  },
+    {    
+      "title": "Data Analyst",
+      "company": "Analytics Inc.",
+      "location": "Boston, MA",
+      "url": "https://www.analyticsinc.com/careers/data-analyst"  },
+    {    
+      "title": "Project Manager",
+      "company": "Project Co.",
+      "location": "Denver, CO",
+      "url": "https://www.projectco.com/careers/project-manager"  },
+    {    
+      "title": "Network Engineer",
+      "company": "Network Co.",
+      "location": "Seattle, WA",
+      "url": "https://www.networkco.com/careers/network-engineer"  },
+    {    
+      "title": "Product Manager",    
+      "company": "Product Co.",
+      "location": "San Francisco, CA",
+      "url": "https://www.productco.com/careers/product-manager"  },
+    {    "title": "DevOps Engineer",
+      "company": "DevOps Co.",
+      "location": "New York, NY",
+      "url": "https://www.devopsco.com/careers/devops-engineer"  },
+    {    
+      "title": "Marketing Specialist",
+      "company": "Marketing Co.",
+      "location": "Chicago, IL",
+      "url": "https://www.marketingco.com/careers/marketing-specialist"  },
+    {    
+      "title": "Database Administrator",
+      "company": "Database Co.",
+      "location": "Atlanta, GA",
+      "url": "https://www.databaseco.com/careers/database-administrator"  },
+    {    
+      "title": "Cloud Solutions Architect",
+      "company": "Cloud Co.",
+      "location": "Dallas, TX",
+      "url": "https://www.cloudco.com/careers/cloud-solutions-architect"  },
+      {
+        "title": "Full Stack Developer",
+        "company": "Acme Inc.",
+        "location": "San Francisco, CA",
+        "url": "https://www.acmeinc.com/careers/full-stack-developer"
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Tech Corp.",
+        "location": "Seattle, WA",
+        "url": "https://www.techcorp.com/careers/software-engineer"
+      },
+      {
+        "title": "Front End Developer",
+        "company": "Web Co.",
+        "location": "New York, NY",
+        "url": "https://www.webco.com/careers/front-end-developer"
+      },
+      {
+        "title": "Mobile Developer",
+        "company": "Mobile Co.",
+        "location": "Austin, TX",
+        "url": "https://www.mobileco.com/careers/mobile-developer"
+      },
+      {
+        "title": "Back End Engineer",
+        "company": "Data Inc.",
+        "location": "Chicago, IL",
+        "url": "https://www.datainc.com/careers/back-end-engineer"
+      },
+      {
+        "title": "UI Designer",
+        "company": "Design Co.",
+        "location": "Los Angeles, CA",
+        "url": "https://www.designco.com/careers/ui-designer"  }
+  ]

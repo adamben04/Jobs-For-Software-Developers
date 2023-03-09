@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="jobs.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- <h1>Jobs for Programmers</h1> -->
+            <nav>
+              <ul class = "nav">
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="jobs.html" id="favorites">Jobs</a></li>
+                <!-- <li><a href="#">Jobs</a></li> -->
+                <li><a href="favorites.html" id="favorites">Favorites</a></li>
+              </ul>
+              
+            </nav>
+            <!-- <nav>
+                
+                <a id="machine">All</a><a id="balloon">Balloon</a><a id="dirigible">Dirigible</a><a
+                id="glider">Glider</a><a id="plane">Aeroplane</a>
+            </nav> -->
+        </header>
+
+        <form action="#">
+          <label for="location">Location</label>
+          <input type="text" id="location" name="location">
+          <button type="submit" id="filter-button">Filter</button>
+        </form>
+        <!-- <img id="heart" src="images/heart-regular.svg">
+        <img id="heart" src="images/heart-solid.svg"> -->
+        <div class="jobs">
+
+        </div>
+
+        <!-- <main>
+            <section class="hero">
+            <a class="links" href="jobs.html">
+            <button id="btn">Find Jobs</button>
+            </a>
+        </main> -->
+        <script>
+            const filterButton = document.querySelector('#filter-button');
+            const keywordsInput = document.querySelector('#keywords');
+            const locationInput = document.querySelector('#location');
+            const featuredJobsContainer = document.querySelector('.jobs');
+
+            fetch('data.json')
+  .then(response => response.json())
+  .then(jobs => {
+    jobs.forEach(generateJobElement);
+  });
+
+filterButton.addEventListener('click', event => {
+  event.preventDefault();
+
+  const location = locationInput.value.trim().toLowerCase();
+
+  // Clear the featured jobs container
+  featuredJobsContainer.innerHTML = '';
+
+  fetch('data.json')
+    .then(response => response.json())
+    .then(jobs => {
+      // Filter the jobs by keywords and location
+      const filteredJobs = jobs.filter(job => {
+        return (
+          job.location.toLowerCase().includes(location)
+        );
+      });
+
+      // Generate and append the elements for the filtered jobs
+      filteredJobs.forEach(generateJobElement);
+    });
+});
+
+        </script>
+    </body>
+
+</html>

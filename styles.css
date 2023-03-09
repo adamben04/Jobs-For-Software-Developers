@@ -1,0 +1,434 @@
+/* header {
+    background-color: pink;
+    color: #fff;
+    padding: 20px;
+  }
+  
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+nav li {
+    margin-right: 20px;
+}
+
+.nav{
+    justify-content: space-between;
+}
+#account{
+    text-align:right;
+}
+
+.hero{
+    justify-content: center;
+}
+
+#btn {
+    height:200px;
+    width:400px;
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-family: verdana;
+    border-radius:10px;
+      
+    color:black;
+    font-size:40px;
+    font-weight:600px;
+}
+
+nav a {
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header {
+    padding: 5px 0;
+    border-bottom: double 4px #664b3d;
+}
+
+.jobs{
+    width: 500px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 10%);
+    overflow: hidden;
+} */
+
+      body {
+        background-image: linear-gradient(144deg,#460277, #261499 50%,#006f79);
+        
+        color: #fff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+      main{
+        background-image: linear-gradient(144deg,#460277, #261499 50%,#006f79);
+      }
+      /* Header */
+      header {
+        background-color: #222;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      header h1 {
+        color: #fff;
+        font-size: 36px;
+        margin: 0;
+      }
+      .nav{
+        justify-content: space-between;
+      }
+      #favorites{
+        text-align:right;
+      }
+      /* Navigation */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      
+      nav li:last-child {
+        margin-right: 0;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+      }
+      
+      nav a:hover {
+        color: #cfcfcf;
+      }
+      
+      /* Main */
+      main {
+        background-color: #111;
+        /* padding: 50px; */
+        text-align: center;
+      }
+      
+      main h2 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      main p {
+        color: #cfcfcf;
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+      
+      main button {
+        background-color: white;
+        border: none;
+        color: #000;
+        font-size: 24px;
+        padding: 20px 50px;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+      }
+      
+      main button:hover {
+        /* background-color: #fff; */
+        color: wheat;
+        /* color: #000; */
+        cursor: pointer;
+      }
+      
+      /* Jobs */
+      .jobs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px;
+        padding-top: 90px;
+        border-radius: 10px;
+        border-color: #111;
+      }
+      
+      .job {
+        background-color: #222;
+        border: 1px solid #cfcfcf;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px #cfcfcf;
+        margin: 20px;
+        max-width: 300px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+      
+      .job:hover {
+        box-shadow: 0px 10px 20px #cfcfcf;
+        transform: translateY(-5px);
+      }
+      
+      .job img {
+        display: block;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      
+      .job h3 {
+        color: #fff;
+        font-size: 24px;
+        margin: 20px;
+        text-align: center;
+      }
+      
+      .job p {
+        color: #cfcfcf;
+        font-size: 18px;
+        margin: 0 20px 20px;
+        text-align: center;
+      }
+      
+      .job a {
+        background-color: beige;
+      }
+
+      header {
+        background-color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      }
+      
+      header ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+      }
+      
+      header li a:hover {
+        background-color: #fff;
+        color: #000;
+      }
+      #btn {
+        height:200px;
+        width:400px;
+        position: absolute;
+        top: 50%; 
+        right: 50%;
+        transform: translate(50%,-50%);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+        border-radius:10px;
+          
+        /* color:black; */
+        font-size:40px;
+        font-weight:600px;
+    }
+
+
+ 
+
+    
+    .button-74 {
+      /* background-color: #7871b9; */
+      border: 2px solid #15efff;
+      background-image: linear-gradient(144deg,#460277, #261499 50%,#006f79);
+      border-radius: 30px;
+      box-shadow: #19beff 4px 4px 0 0;
+      color: whitesmoke;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 0 18px;
+      line-height: 50px;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .button-74:hover {
+      background-color: #bebebe;
+    }
+    
+    .button-74:active {
+      box-shadow: #178e9e 2px 2px 0 0;
+      transform: translate(2px, 2px);
+    }
+    
+    @media (min-width: 768px) {
+      .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+      }
+    }
+    .jobs div{
+        border-radius: 2px;
+        border-color: #000;
+        /* background-color: chocolate;
+        linear-gradient(144deg,#460277, #261499 50%,#006f79); */
+        background-image: linear-gradient(144deg,#460277, #261499 50%,#006f79);
+        padding: 30px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    /*#heart{
+        padding-top: 8px;
+        display: flex;
+        justify-content: right;
+        width: 25px;
+        height: 25px;
+        filter: invert(40%) sepia(29%) saturate(4476%) hue-rotate(-40deg) brightness(118%) contrast(119%);
+        /* filter: invert(1) sepia(1) hue-rotate(170deg); */
+    
+
+    .heart{
+        padding-top: 8px;
+        display: flex;
+        justify-content: right;
+        width: 25px;
+        height: 25px;
+        filter: invert(40%) sepia(29%) saturate(4476%) hue-rotate(-40deg) brightness(118%) contrast(119%);
+        /* filter: invert(1) sepia(1) hue-rotate(170deg); */
+        cursor:pointer;
+    }
+
+    .hearts{
+        padding-top: 8px;
+        display: flex;
+        justify-content: right;
+        width: 25px;
+        height: 25px;
+        filter: invert(40%) sepia(29%) saturate(4476%) hue-rotate(-40deg) brightness(118%) contrast(119%);
+        /* filter: invert(1) sepia(1) hue-rotate(170deg); */
+    }
+    
+    form{
+      margin: 150px auto 0px;
+    }
+    form {
+      max-width: 500px;
+      /* margin: 0 auto; */
+      /* padding: 20px; */
+      /* background-image: linear-gradient(144deg,#460277, #261499 50%,#006f79);
+      padding: 25px; */
+      border-radius: 5px;
+      
+    }
+    
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      font-size: large;
+      background-color: hsl(44, 100%, 87%);
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      background-color: hsl(44, 100%, 47%);
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    
+    .error {
+      color: red;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 26px;
+    }
+
+    #filter-button{
+      font-size: 30px;
+      justify-self: center;
+    }
+
+    /* h3 {
+      font-size: larger;
+      color: black;
+      /* -webkit-text-fill-color: black; /* Will override color (regardless of order)
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white; */
+
+    a{
+      color: #1be700;
+    }
+
+    #home, #favorites{
+      background-image: linear-gradient(144deg,#460277, #261499 50%,#006f79);
+    }
+
+    #favorites-title{
+      padding-top: 160px;
+      text-align: center;
+      margin: 0px;
+    }
+
+    #intro-title{
+      padding-top: 100px;
+      text-align: center;
+
+    }
